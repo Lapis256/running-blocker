@@ -1,0 +1,32 @@
+{
+    "format_version": 2,
+    "header": {
+        "description": "Makes the player unable to run.",
+        "name": "Running Blocker",
+        "uuid": "a5349e4b-1766-4f72-9705-c48e5d0ee7c7",
+        "version": [1, 0, 0],
+        "min_engine_version": [1, 19, 10]
+    },
+    "modules": [
+        {
+            "description": "Running Blocker Script Module",
+            "uuid": "9407a82d-f8a4-4788-8b1f-e541310a3a54",
+            "type": "script",
+            "language": "javascript",
+            "entry": "scripts/main.js",
+            "version": [1, 0, 0]
+        }
+    ],
+    "dependencies": [
+        {
+            /* Minecraft Module */
+            "uuid": "b26a4d4c-afdf-4690-88f8-931846312678",
+            "version": [0, 1, 0]
+        }
+    ],
+    "metadata": {
+        "authors": ["Lapis256"],
+        "url": "https://github.com/Lapis256",
+        "license": "https://github.com/Lapis256/running-blocker/blob/main/LICENSE"
+    }
+}

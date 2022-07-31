@@ -1,0 +1,11 @@
+{
+    "typeAcquisition": {
+        "include": [
+            "mojang-minecraft",
+        ]
+    },
+    "compilerOptions": {
+        "target": "ES2021",
+        "module": "ES2020"
+    }
+}
